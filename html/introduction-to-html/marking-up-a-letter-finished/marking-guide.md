@@ -3,23 +3,23 @@ The following guide outlines a marking guide for the MDN Learning Area HTML Topi
 
 Note: These are guidelines, not set in stone rules — you are of course free to use your judgement on mark awarding when you meet an edge case, or somethign that isn't clearly cut.
 
-The overall mark awarded is out of 50; For reference, you can find a [finished marked up letter](index.html) that would be awarded top marks. 
+The overall mark awarded is out of 45; For reference, you can find a [finished marked up letter](index.html) that would be awarded top marks. 
 
 ##Block/structural semantics
 
 <dl>
-<dt>You should structure the overall document with an appropriate structure including doctype, and &lt;html&gt;, &lt;head&gt; and &lt;body&gt; elements.</dt>
-<dd>5 marks in total. They need to:
+<dt>You should structure the overall document with an appropriate structure including doctype, and &lt;html&gt;, &lt;head&gt; and &lt;body&gt; elements (5 marks)</dt>
+<dd>They need to:
 <ul>
   <li>Provide an HTML5 doctype (&lt;!doctype html&gt;, 1 mark)</li>
   <li>Include a &lt;head&gt; element just below that (1 mark)</li>
   <li>Wrap the content in a &lt;body&gt; element (1 mark)</li>
-  <li>Wrap head and body in an &lt;html&gt; element</li>
+  <li>Wrap head and body in an &lt;html&gt; element (1 mark)</li>
   <li>You get one bonus mark for including a lang attribute in the &lt;html&gt; tag (1 mark)</li>
 </ul>
 </dd>
-<dt>The letter in general should be marked up with a structure of paragraphs and headings, with the exception of the below points. There is one top level heading (the "Re:" line) and two second level headings.</dt>
-<dd>6 marks in total. they need to:
+<dt>The letter in general should be marked up with a structure of paragraphs and headings, with the exception of the below points. There is one top level heading (the "Re:" line) and two second level headings (6 marks)</dt>
+<dd>They need to:
   <ul>
   <li>Mark up the "Re:" line as an &lt;h1&gt; element (1 mark)</li>
   <li>Mark up the "Starting dates", "Subjects of study" and "Exotic dance moves" as &lt;h2&gt; elements (3 marks)</li>
@@ -61,7 +61,7 @@ The overall mark awarded is out of 50; For reference, you can find a [finished m
 </dd>
 <dt>Try to mark up at least two appropriate words in the text with strong importance/emphasis (1 mark, half a mark each)</dt>
 <dd>This is very open to interpretation; anything that seems appropriate should be fine.</dd>
-<dt>There are two places where a hyperlink should be added; add appropriate links with titles. For the location that the links point to, just use http://example.com.(4 marks)</dt>
+<dt>There are two places where a hyperlink should be added; add appropriate links with titles. For the location that the links point to, just use http://example.com (4 marks)</dt>
 <dd>
   The two places should have an &lt;a&gt; element wrapped around reasonable words to make the link. Each element should have an href attribute pointing to a dummy URL, such as "http://www.example.com" or "*", and a title attribute that describes what the link should point to. Half a mark should be taken off if the link text is inappropriate, and/or attributes are missing.
   <ul>
