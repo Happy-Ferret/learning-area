@@ -3,7 +3,7 @@ The following guide outlines a marking guide for the MDN Learning Area HTML Topi
 
 Note: These are guidelines, not set in stone rules — you are of course free to use your judgement on mark awarding when you meet an edge case, or somethign that isn't clearly cut.
 
-The overall mark awarded is out of 45; For reference, you can find a [finished marked up letter](index.html) that would be awarded top marks. 
+The overall mark awarded is out of 47. Work out their final mark, and then divide by 47 and multiply by 100 to give a percentage mark. For reference, you can find a [finished marked up letter](index.html) that would be awarded top marks. 
 
 ##Block/structural semantics
 
@@ -83,3 +83,9 @@ The overall mark awarded is out of 45; For reference, you can find a [finished m
   <dt>The provided CSS should be included inside an appropriate tag (2 marks)</dt>
   <dd>The CSS from the provided CSS file should be pasted inside a &lt;style&gt; element, included inside the &lt;head&gt; element. OR, it would also be acceptable (in fact better) if the student put the CSS inside an external CSS file and linked it via a &lt;link&gt; element.</dd>
 </dl>
+
+##Other tasks
+
+<dl>
+<dt>You'll get bonus points if it validates as much as possible (2 marks.)</dt>
+<dd>If the student's code validates, apart from the Google Font link element, they get the marks.</dd>
